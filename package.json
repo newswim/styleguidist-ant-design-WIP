@@ -1,10 +1,12 @@
 {
   "name": "styleguidist-ant-design",
   "version": "1.0.0",
-  "description": "A Styleguidist component explorer for the Ant Design framework",
+  "description":
+    "A Styleguidist component explorer for the Ant Design framework",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server"
   },
   "repository": {
     "type": "git",
@@ -37,6 +39,7 @@
     "babel-loader": "7.1.2",
     "babel-preset-env": "1.6.1",
     "prettier": "1.8.1",
+    "prettierrc": "0.0.0-5",
     "react-styleguidist": "6.0.33",
     "webpack": "3.8.1",
     "webpack-dev-server": "2.9.4"
