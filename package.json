@@ -25,5 +25,12 @@
   "bugs": {
     "url": "https://github.com/newswim/ant-design-styleguidist/issues"
   },
-  "homepage": "https://github.com/newswim/ant-design-styleguidist#readme"
+  "homepage": "https://github.com/newswim/ant-design-styleguidist#readme",
+  "dependencies": {
+    "antd": "2.13.9"
+  },
+  "devDependencies": {
+    "react-styleguidist": "6.0.33",
+    "webpack": "3.8.1"
+  }
 }
