@@ -1,8 +1,7 @@
 {
   "name": "styleguidist-ant-design",
   "version": "1.0.0",
-  "description":
-    "A Styleguidist component explorer for the Ant Design framework",
+  "description": "A Styleguidist component explorer for the Ant Design framework",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -35,9 +34,10 @@
     "react-dom": "16.0.0"
   },
   "devDependencies": {
+    "@babel/preset-env": "7.0.0-beta.31",
     "babel-core": "6.26.0",
     "babel-loader": "7.1.2",
-    "babel-preset-env": "1.6.1",
+    "babel-plugin-import": "1.6.2",
     "prettier": "1.8.1",
     "prettierrc": "0.0.0-5",
     "react-styleguidist": "6.0.33",
